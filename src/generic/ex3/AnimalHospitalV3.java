@@ -1,11 +1,12 @@
-package generic.test.ex3;
+package generic.ex3;
 
-import generic.animal.Cat;
+import generic.animal.Animal;
 
-public class CatHospital {
-    private Cat animal;
+// Animal 또는 그 자식 클래스만 넣을 수 있다.
+public class AnimalHospitalV3<T extends Animal> {
+    private T animal;
 
-    public void set(Cat animal) {
+    public void set(T animal) {
         this.animal = animal;
     }
 
@@ -15,7 +16,7 @@ public class CatHospital {
         animal.sound();
     }
 
-    public Cat bigger(Cat target) {
+    public Animal bigger(Animal target) {
         return animal.getSize() > target.getSize() ? animal : target;
     }
 }
