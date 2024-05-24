@@ -1,4 +1,4 @@
-package collection.test.ex2;
+package collection.array.test.ex2;
 
 public class ShoppingCartMain {
     public static void main(String[] args) {

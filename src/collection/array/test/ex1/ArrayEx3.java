@@ -1,10 +1,10 @@
-package collection.test.ex1;
+package collection.array.test.ex1;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class ArrayEx2 {
+public class ArrayEx3 {
     public static void main(String[] args) {
         List<Integer> numbers = new ArrayList<>();
 
@@ -20,14 +20,13 @@ public class ArrayEx2 {
             }
         }
 
-        System.out.println("출력");
-        for(int i = 0; i < numbers.size(); i++) {
-            System.out.print(numbers.get(i));
-            if(i != numbers.size() - 1) {
-                System.out.print(", ");
-            }
+        int total = 0;
+        for (Integer integer : numbers) {
+            total += integer;
         }
 
-
+        double average = (double) total / numbers.size();
+        System.out.println("입력한 정수의 합계: " + total);
+        System.out.println("입력한 점수의 평균: " + average);
     }
 }
