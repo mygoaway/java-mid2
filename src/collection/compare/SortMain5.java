@@ -23,6 +23,5 @@ public class SortMain5 {
         users2.add(myUser3);
         System.out.println("Comparator 정렬");
         System.out.println("users2 = " + users2);
-
     }
 }
