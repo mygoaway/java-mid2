@@ -18,7 +18,7 @@ public class SortMain4 {
 
         System.out.println("기본 데이터");
         System.out.println(users);
-
+        
         System.out.println("Comparable 기본 정렬");
         users.sort(null); // 권장, 별도의 비교자가 없으므로 Comparable로 비교해서 정렬
         //Collections.sort(users);
