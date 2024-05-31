@@ -13,7 +13,6 @@ public class OfMain {
 
         // 값을 추가하거나 삭제하는 경우 컴파일 에러 발생
         //list.remove(1);
-
         System.out.println("list = " + list);
         System.out.println("set = " + set);
         System.out.println("map = " + map);
