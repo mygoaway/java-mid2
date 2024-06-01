@@ -17,6 +17,7 @@ public class OfMain {
         System.out.println("set = " + set);
         System.out.println("map = " + map);
         System.out.println("list.getClass() = " + list.getClass());
-        // list.getClass() = class java.util.ImmutableCollections$ListN
+        // list.getClass() = class java.util.ImmutableCollections$ListN'
+        
     }
 }
